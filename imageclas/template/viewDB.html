@@ -1,0 +1,15 @@
+{% extends 'headerPage.html' %}
+
+{% block content%}
+
+{% for i in listOfImagesPath %}
+
+
+<img src={{i}} style="width: 100px;"> 
+<h6>{{listOfImagesPath}}</h6>
+
+{% endfor%}
+
+
+
+{% endblock %}
